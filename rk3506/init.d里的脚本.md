@@ -3,4 +3,4 @@
 在您基于 Buildroot 的嵌入式 RTU 项目中，这个目录尤为重要。您可以将自己开发的后台服务程序（例如，用于处理 Modbus、MQTT 通信或配置管理的守护进程）的启动脚本放置于此。这样，系统在启动时就能自动运行这些服务，确保 RTU 的各项功能就绪。
 
 虽然现代 Linux 发行版多采用 systemd，但许多嵌入式系统（包括由 Buildroot 构建的）仍使用传统的 SysV init，/etc/init.d/ 因此是管理服务的关键位置。
-由[[板级文件系统覆盖层（Root Filesystem Overlay）]]决定
+由[[buildroot板级文件系统覆盖层]]决定

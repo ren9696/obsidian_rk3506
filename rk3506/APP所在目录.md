@@ -6,12 +6,8 @@
 
 1. 在您的Buildroot构建脚本中，将编译好的可执行文件安装到 `$(TARGET_DIR)/usr/sbin/`。
     
-2. 创建一个systemd服务单元文件（如 `rtu-app.service`），放在 `/etc/systemd/system/`中，以便系统启动时自动运行您的应用。
-    
-3. 相关的配置文件（如您提到的JSON配置）建议放在 `/etc/`目录下（例如 `/etc/rtu-config.json`）。
+2. 相关的配置文件（如您提到的JSON配置）建议放在 `/etc/`目录下（例如 `/etc/rtu-config.json`）。
 ---
-
-好的，我们来详细解释这两点，这是将您的应用程序集成到嵌入式Linux系统并实现开机自启动的关键步骤。
 
 ### 第一点详解：在Buildroot中安装应用程序
 

@@ -1,4 +1,4 @@
-这是开发板厂商（或您自己）添加自定义文件（如您的 `S89ML37init`）最标准、最常用的方式。覆盖层是一个目录，其中的文件结构会在 Buildroot 构建过程的最后阶段，**原样复制**到目标根文件系统的对应位置。
+buildroot板级文件系统覆盖层（Root Filesystem Overlay）这是开发板厂商（或您自己）添加自定义文件（如您的 `S89ML37init`）最标准、最常用的方式。覆盖层是一个目录，其中的文件结构会在 Buildroot 构建过程的最后阶段，**原样复制**到目标根文件系统的对应位置。
 
 当前Buildroot配置中确实设置了多个根文件系统覆盖目录：
 
@@ -6,7 +6,7 @@
 BR2_ROOTFS_OVERLAY="board/rockchip/common/base/board/rockchip/rk3506/fs-overlay/ board/rockchip/rk3506/fast-display-overlay/"
 ```
 
-**这里有3个覆盖目录**（看起来您复制时格式有点问题，我重新整理一下）：
+**这里有3个覆盖目录**：
 
 1. `board/rockchip/common/base/`
     
