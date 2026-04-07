@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APP所在目录.md",
+                "file": "APP集成到镜像中.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "APP所在目录"
+              "title": "APP集成到镜像中"
             }
           },
           {
@@ -207,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APP所在目录.md",
+                "file": "APP集成到镜像中.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +217,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "APP所在目录 的反向链接列表"
+              "title": "APP集成到镜像中 的反向链接列表"
             }
           },
           {
@@ -226,12 +226,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APP所在目录.md",
+                "file": "APP集成到镜像中.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "APP所在目录 的出链列表"
+              "title": "APP集成到镜像中 的出链列表"
             }
           },
           {
@@ -269,13 +269,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APP所在目录.md",
+                "file": "APP集成到镜像中.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "APP所在目录 的大纲"
+              "title": "APP集成到镜像中 的大纲"
             }
           }
         ]
@@ -298,9 +298,10 @@
   },
   "active": "ffd4525f133a3850",
   "lastOpenFiles": [
+    "init.d脚本.md",
+    "APP所在目录.md",
     "buildroot板级文件系统覆盖层.md",
     "rcS文件.md",
-    "init.d里的脚本.md",
     "程序开机自启动脚本.md",
     "欢迎.md",
     "4g.md",
@@ -310,7 +311,6 @@
     "获取芯片ID.md",
     "开机自启脚本.md",
     "如何在sdk中找到板子里/etc/init.d里的脚本文件.md",
-    "APP所在目录.md",
     "APP集成到镜像中.md",
     "修改文件权限.md",
     "将脚本集成在镜像中.md",
