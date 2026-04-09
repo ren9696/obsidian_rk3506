@@ -4,3 +4,6 @@
 
 虽然现代 Linux 发行版多采用 systemd，但许多嵌入式系统（包括由 Buildroot 构建的）仍使用传统的 SysV init，/etc/init.d/ 因此是管理服务的关键位置。
 由[[buildroot板级文件系统覆盖层]]决定
+
+[[开机自启脚本]]
+
