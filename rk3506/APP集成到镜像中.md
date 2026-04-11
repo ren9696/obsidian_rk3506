@@ -1,4 +1,4 @@
-# Buildroot 自动构建（工业标准，推荐正式开发用）
+# Buildroot 自动构建
 
 如果你用 **Buildroot** 构建系统（嵌入式 90% 都用它），可以让工具**自动编译 APP + 自动拷贝脚本 + 自动打包镜像**，一劳永逸。
 
@@ -25,7 +25,7 @@ config BR2_PACKAGE_MYAPP
       My embedded application
 ```
 
-## 步骤 3：写 myapp.mk（核心！自动拷贝文件）
+## 步骤 3：写 myapp.mk
 
 makefile
 
