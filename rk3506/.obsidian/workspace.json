@@ -144,6 +144,20 @@
             }
           },
           {
+            "id": "847194072e3b6e08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LVGL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LVGL"
+            }
+          },
+          {
             "id": "8dded555ef5193eb",
             "type": "leaf",
             "state": {
@@ -158,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -231,6 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LVGL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +255,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "LVGL 的反向链接列表"
             }
           },
           {
@@ -318,8 +333,11 @@
       "bases:新建数据库": false
     }
   },
-  "active": "893bbd7947b69fa4",
+  "active": "847194072e3b6e08",
   "lastOpenFiles": [
+    "DRM 头文件找不到.md",
+    "LVGL.md",
+    "DRM.md",
     "Cmake.md",
     "make.md",
     "4g.md",
@@ -350,9 +368,6 @@
     "未命名 3.base",
     "未命名 2.base",
     "init.d脚本.md",
-    "开机自启脚本.md",
-    "rcS文件.md",
-    "iio.md",
     "未命名",
     "如何在sdk中找到板子里/etc",
     "如何在sdk中找到板子里"
