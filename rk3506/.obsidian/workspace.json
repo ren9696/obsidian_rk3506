@@ -11,10 +11,14 @@
             "id": "9993be5591eeac48",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "分区.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "分区"
             }
           }
         ]
@@ -181,11 +185,13 @@
   },
   "active": "9993be5591eeac48",
   "lastOpenFiles": [
+    "下载配置文件.md",
+    "curl.md",
+    "挂载点.md",
+    "挂载.md",
     "未命名.canvas",
     "守护进程.md",
     "DRM.md",
-    "挂载.md",
-    "挂载点.md",
     "分区.md",
     "块设备.md",
     "SysV init.md",
@@ -199,13 +205,11 @@
     "WIFI.md",
     "systemd.md",
     "system.md",
-    "下载配置文件.md",
     "子进程.md",
     "DRM 头文件找不到.md",
     "Cmake.md",
     "4g.md",
     "GPIO.md",
-    "curl.md",
     "APP所在目录.md",
     "未命名 6.base",
     "未命名.base",
